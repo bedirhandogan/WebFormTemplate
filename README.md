@@ -1,8 +1,8 @@
 **Project Properties**
 
-# - Background Animation. 
-# - Hover Animation. 
-# - Colors compatible with background. 
+Background Animation. 
+Hover Animation. 
+Colors compatible with background. 
 
 
 Sign in : 
@@ -15,7 +15,7 @@ Sign up :
 
 **Project İnformation**
 
-# - ** Project: Sign in and Sign up Form tamplate.
-# - ** Frontend Developer: Bedirhan Doğan
-# -  ** Project Version: v1.0.0
-# - ** Date: 25/09/2020 03:30
+Project: Sign in and Sign up Form tamplate.
+Frontend Developer: Bedirhan Doğan
+Project Version: v1.0.0
+Date: 25/09/2020 03:30
