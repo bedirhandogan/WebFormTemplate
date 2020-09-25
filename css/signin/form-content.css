@@ -1,0 +1,194 @@
+.form-content {
+  
+  height: 500px;
+  width: 320px;
+  background: #24212a;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border: 1px solid #FF3F05;
+  border-radius: 15px;
+  box-shadow: 0 0 100px 2px black;
+  transition-property: background-color, box-shadow;
+  transition-duration: 1.5s;
+  
+}
+
+.form-content:hover {
+  
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 100px 0.5px black;
+  
+}
+
+.form-content-logo {
+  
+  opacity: 0.8;
+  background-image: url('https://i.hizliresim.com/6wdNqJ.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 15px;
+  left: 110px;
+   
+}
+
+::placeholder {
+
+  color: white;
+  opacity: 1;
+  
+}
+
+:-ms-input-placeholder {
+  
+  color: white;
+  
+}
+
+::-ms-input-placeholder {
+  
+  color: white;
+  
+}
+
+input[type=text] {
+  
+ width: 220px;
+ height: 30px;
+ border: none;
+ background: none;
+ border-bottom: 1.5px solid #FF6A00;
+ font-size: 15px;
+ padding-left: 10px;
+ position: absolute;
+ top: 150px;
+ left: 45px;
+  
+}
+
+input[type=text]:focus {
+  
+  outline: none;
+  color: white;
+  
+}
+
+input[type=password] {
+  
+ width: 220px;
+ height: 30px;
+ border: none;
+ background: none;
+ border-bottom: 1.5px solid #FF6A00;
+ font-size: 15px;
+ padding-left: 10px;
+ position: absolute;
+ top: 200px;
+ left: 45px;
+  
+}
+
+input[type=password]:focus {
+  
+  outline: none;
+  color: white;
+  
+}
+
+input[type=checkbox] {
+
+  position: absolute;
+  top: 245px;
+  left: 40px;
+  width: 16px;
+  height: 16px;
+
+}
+
+input[type=checkbox]:before {
+
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  border: 1.5px solid #FF6A00;
+  border-radius: 3px;
+  background-color: white;
+
+}
+
+input[type=checkbox]:checked:after {
+
+  content: "";
+  display: block;
+  width: 3px;
+  height: 6px;
+  border: solid #FF6A00;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+
+}
+
+.checkbox-info {
+
+  color: white;
+  font-size: 12.4px;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+
+}
+
+button[type=submit] {
+  
+  width: 230px;
+  height: 30px;
+  background: none;
+  border: 1.5px solid #FF6A00;
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 305px;
+  left: 45px;
+  
+}
+
+button[type=submit]:focus {
+  
+  outline: none;
+  
+}
+
+.span-content {
+  
+  display: flex;
+  justify-content: center;
+  
+}
+
+span {
+  
+  font-size: 12.5px;
+  color: white;
+  position: absolute;
+  top: 450px;
+  text-align: center;
+  
+}
+
+a {
+  
+ text-decoration: none;
+ color: #FF6A00;
+  
+} 
