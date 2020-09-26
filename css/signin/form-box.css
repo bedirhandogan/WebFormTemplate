@@ -11,6 +11,20 @@
 	right: 0;
 	border-radius: 10px;
 	box-shadow: 0 0 25px 0.5px black;
+  animation: AnimationBack 1.2s ease;
+  
+}
+
+@keyframes AnimationBack {
+  
+ 0% {
+   
+   position: absolute; 
+   top: -3000px;
+   left: -3000px; 
+   transform: rotate(300deg)
+   
+    } 
   
 }
 

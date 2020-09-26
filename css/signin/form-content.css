@@ -11,6 +11,19 @@
   box-shadow: 0 0 100px 2px black;
   transition-property: background-color, box-shadow;
   transition-duration: 1.5s;
+  animation: AnimationContent 1.3s ease;
+  
+}
+
+@keyframes AnimationContent {
+  
+ 0% {
+   
+   position: absolute; 
+   top: -3000px;
+   right: 3000px; 
+   
+    } 
   
 }
 
@@ -34,7 +47,20 @@
   position: absolute;
   top: 15px;
   left: 110px;
+  animation: AnimationLogo 1.3s ease;
+  
+}
+
+@keyframes AnimationLogo {
+  
+ 0% {
    
+   position: absolute; 
+   top: -3000px;
+   right: -3000px; 
+   
+    } 
+  
 }
 
 ::placeholder {
