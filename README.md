@@ -6,7 +6,7 @@
 
 **Project İnformation :**
 
-- Project: Sign in and Sign up Form tamplate.
+- Project: Sign in and Sign up Form template.
 - Frontend Developer: Bedirhan Doğan
 - Project Version: v1.0.0
 - Date: 25/09/2020 03:30
